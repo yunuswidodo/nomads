@@ -13,9 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', 'HomeController@index') ;
 
 Route::prefix('admin')
      ->namespace('Admin')
@@ -23,3 +21,4 @@ Route::prefix('admin')
         Route::get('/', 'DashboardController@index')
           ->name('dashboard');
      });
+
