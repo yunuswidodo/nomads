@@ -15,6 +15,7 @@
                 </p>
                 <a href="{{url ('/' ) }}" class="btn btn-home-page mt-3 px-5">
                     Home Page
+                    <!-- coba git  -->
                 </a>
             </div>
         </div>
